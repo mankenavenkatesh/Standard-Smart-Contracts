@@ -7,7 +7,21 @@ This repo contains Solidity smart contract code for simple, standards-compliant 
 
 ## erc-standards (https://eips.ethereum.org/erc)
 
-#### My Solidity ERC Standard Token Contract Types 
+
+## Tokens
+What is a token?
+Token refers to digital assets that can have unique characteristics as well as same characteristics.
+### Types of tokens
+#### Fungible Tokens (Ex. Stock shares) 
+ - Interchangeable.
+ - Divisible into smaller units.
+ - uniform, identical to each other.
+#### Non Fungible Tokens - (Ex. arts, lands, certificates, cryptokitties)
+ - Each unit is unique. there is no repeated unit. 
+ - Cannot be divisible into smaller parts.
+ - It is not interchangeable.
+ 
+### My Solidity ERC Standard Token Contract Types 
 - [ERC-20](https://github.com/mankenavenkatesh/Standard-Smart-Contracts/tree/master/ERC-20)
 - [ERC-223](https://github.com/mankenavenkatesh/Standard-Smart-Contracts/tree/master/ERC-223)
 - [ERC-721](https://github.com/mankenavenkatesh/My-Smart-Contracts/tree/master/Standard-Contract-Types/ERC-721)
@@ -16,19 +30,4 @@ This repo contains Solidity smart contract code for simple, standards-compliant 
 - ERC-1155 
 
 
-## Tokens
-
-### Types of tokens
-
-##### Utility Token. Tokens to get a service. Like Ether used for paying fee for transactions. 
-##### Equity Token. Tokens to invest in company and get the profits.
-
-### Fungible Tokens (Ex. Stock shares) 
- - Interchangeable.
- - Divisible into smaller units.
- - uniform, identical to each other.
-### Non Fungible Tokens - (Ex. arts, lands, certificates, cryptokitties)
- - Each unit is unique. there is no repeated unit. 
- - Cannot be divisible into smaller parts.
- - It is not interchangeable.
 
