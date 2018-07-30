@@ -16,12 +16,6 @@ This repo contains Solidity smart contract code for simple, standards-compliant 
 - ERC-1155 
 
 
-
-## contract-types
-
-#### Different Types of Smart contracts
-- [Multisig Wallet](https://github.com/mankenavenkatesh/My-Smart-Contracts/tree/master/Standard-Contract-Types/Multisig-Wallet)
-
 ## Tokens
 
 ### Types of tokens
