@@ -5,7 +5,7 @@ This repo contains Solidity smart contract code for simple, standards-compliant 
 | [ERC Standard Contracts](#erc-standards) | [Contract Types](#contract-types) 
 
 
-## erc-standards
+## erc-standards (https://eips.ethereum.org/erc)
 
 #### My Solidity ERC Standard Token Contract Types 
 - [ERC-20](https://github.com/mankenavenkatesh/Standard-Smart-Contracts/tree/master/ERC-20)
