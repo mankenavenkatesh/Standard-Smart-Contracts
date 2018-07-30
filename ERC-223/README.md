@@ -2,4 +2,18 @@ The ERC20 Token standard was a good starting point for setting up token developm
 
 ```
 Thankfully a user named Dexaran (an ETC developer) came up with a keen solution using some inline Assembly. He updated the transfer function to check if the address the tokens are being sent to is a contract address. 
+
+function transfer(address to, uint value, bytes data) {
+        uint codeLength;
+        assembly {
+            codeLength := extcodesize(_to)
+        }
+        balances[msg.sender] = balances[msg.sender].sub(_value);
+        balances[_to] = balances[_to].add(_value);
+        if(codeLength>0) {
+            // Require proper transaction handling.
+            ERC223Receiver receiver = ERC223Receiver(_to);
+            receiver.tokenFallback(msg.sender, _value, _data);
+        }
+    }
 ```
